@@ -13,9 +13,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:text="My Nanodegree Apps"
-        android:textSize="28sp" />
+        android:layout_marginTop="@dimen/heading_top_margin"
+        android:gravity="center"
+        android:text="@string/heading_text"
+        android:textSize="@dimen/heading_text_size"
+        android:typeface="serif" />
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -24,51 +26,53 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/app1"
-            android:layout_width="200dp"
+            android:id="@+id/app1_button"
+            android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:text="Spotify Streamer" />
+            android:layout_marginBottom="@dimen/button_bottom_margin"
+            android:text="@string/app1_title" />
 
         <Button
             android:id="@+id/app2_button"
-            android:layout_width="200dp"
+            android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:text="Football Scores App" />
+            android:layout_marginBottom="@dimen/button_bottom_margin"
+            android:text="@string/app2_title" />
 
         <Button
             android:id="@+id/app3_button"
-            android:layout_width="200dp"
+            android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:text="Library App" />
+            android:layout_marginBottom="@dimen/button_bottom_margin"
+            android:text="@string/app3_title" />
 
         <Button
             android:id="@+id/app4_button"
-            android:layout_width="200dp"
+            android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:text="Build It Bigger" />
+            android:layout_marginBottom="@dimen/button_bottom_margin"
+            android:text="@string/app4_title" />
 
         <Button
             android:id="@+id/app5_button"
-            android:layout_width="200dp"
+            android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:text="XYZ Reader" />
+            android:layout_marginBottom="@dimen/button_bottom_margin"
+            android:text="@string/app5_title" />
 
         <Button
             android:id="@+id/finalapp_button"
-            android:layout_width="200dp"
+            android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Capstone: My Own App" />
+            android:background="@color/primary_dark"
+            android:textColor="@color/text_primary_color"
+            android:text="@string/app6_title" />
     </LinearLayout>
 
 </LinearLayout>
